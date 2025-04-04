@@ -1,4 +1,5 @@
 # TypeScript Resources
+
 ### setup typescript
 
 ##  Steps
@@ -36,3 +37,10 @@ Function
 #### Tuples
      
 #### Enum 
+
+#### Interface
+    loosly type of class which define the structure of the class or object any thing. But it doesnot contains the logic difined in it.
+
+      Difference between Interface and Types
+        -> A type cannot be changed after being created. But we can add new field in an existing interface
+        -> A type can be extended by using intersections but an interface can be extended by using ` `extends` key word.
